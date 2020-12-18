@@ -30,7 +30,7 @@ jobs:
 
         uses: actions/checkout@master
 
-        
+
 
       - name: GitHub Super-Linter
 
@@ -42,4 +42,4 @@ jobs:
 
           DEFAULT_BRANCH: master
 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}"""
